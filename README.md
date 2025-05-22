@@ -46,8 +46,7 @@ pip install Pillow pillow-heif tkinterdnd2
 
 ## Usage
 
-```bash![Screenshot (43)](https://github.com/user-attachments/assets/46ebe58c-5d96-42ca-85ec-06f6b4c7327c)
-
+```bash
 python gui.py
 ```
 
