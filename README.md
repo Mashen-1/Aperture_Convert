@@ -1,6 +1,6 @@
 <p align="center">
   
-![Aperture Convert Preview](https://github.com/user-attachments/assets/6c98a325-3333-4551-838f-e115290a6f15)
+![Aperture Convert Preview](https://github.com/user-attachments/assets/0b683eff-9412-4219-a778-98a953cafa2c)
 
 </p>
 
