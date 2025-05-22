@@ -33,7 +33,6 @@ def handle_drop(img_loc_count_var, img_convert_count_var, files):
 
     for file in files:
         file_name, ext = os.path.splitext(file)
-        print(ext)
         if ext.lower() in supported_types and file not in image_locations:
             image_locations.append(file)
 
