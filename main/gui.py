@@ -403,7 +403,7 @@ display_image_name.place(x=500, y=591, anchor=tk.CENTER)
 
 # -- Setting Up Buttons --
 
-left_arrow = Arrow(        # -- Need to add functionality --
+left_arrow = Arrow(
     master=window,
     image=tk.PhotoImage(file="img_assets/left arrow.png"),
     image_clicked=tk.PhotoImage(file="img_assets/left arrow clicked.png"),
@@ -411,7 +411,7 @@ left_arrow = Arrow(        # -- Need to add functionality --
     y_pos=285,
     command_func=left_arrow_press)
 
-right_arrow = Arrow(         # -- Need to add functionality --
+right_arrow = Arrow(
     master=window,
     image=tk.PhotoImage(file="img_assets/right arrow.png"),
     image_clicked=tk.PhotoImage(file="img_assets/right arrow clicked.png"),
