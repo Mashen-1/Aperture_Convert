@@ -19,8 +19,22 @@ def remove_image(index, img_loc_count_var):
 def handle_drop(img_loc_count_var, img_convert_count_var, files):
     global image_locations
 
+    supported_types = [
+        '.jpg',
+        '.jpeg',
+        '.png',
+        '.tif',
+        '.tiff',
+        '.webp',
+        '.heic',
+        '.heif',
+        '.cr2',
+        '.ico']
+
     for file in files:
-        if file not in image_locations:
+        file_name, ext = os.path.splitext(file)
+        print(ext)
+        if ext.lower() in supported_types and file not in image_locations:
             image_locations.append(file)
 
     img_loc_count_var.set(len(image_locations))
