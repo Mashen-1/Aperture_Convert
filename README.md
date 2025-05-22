@@ -75,7 +75,7 @@ Aperture_Convert/
 
 ## Packaging to executable (Optional)
 
-* For Windows users you can directly download the .zip [Here](https://www.mediafire.com/file/s5m3a18rr8w1cg9/Aperture_Convert.zip/file)
+* For Windows users you can directly download the .zip [Here](https://www.mediafire.com/file/x352fucwsszb04t/Aperture_Convert.zip/file)
 
 ```bash
 pip install auto-py-to-exe
