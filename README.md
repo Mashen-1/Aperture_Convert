@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="![Screenshot (43)](https://github.com/user-attachments/assets/cf86916d-f18b-47f3-9220-083ec174597f)" width="400" alt="Aperture Convert Preview">
+  
+![Aperture Convert Preview](https://github.com/user-attachments/assets/6c98a325-3333-4551-838f-e115290a6f15)
+
 </p>
 
 <h1 align="center">Aperture Convert</h1>
