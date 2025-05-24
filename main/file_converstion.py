@@ -7,7 +7,6 @@ image_locations = []
 
 
 def get_locations():
-    global image_locations
     return image_locations
 
 
@@ -17,7 +16,6 @@ def remove_image(index, img_loc_count_var):
 
 
 def handle_drop(img_loc_count_var, img_convert_count_var, files):
-    global image_locations
 
     supported_types = [
         '.jpg',
@@ -41,7 +39,6 @@ def handle_drop(img_loc_count_var, img_convert_count_var, files):
 
 
 def find_file(img_loc_count_var, img_convert_count_var):
-    global image_locations
 
     file_paths = askopenfilenames(
         initialdir='/',
@@ -66,7 +63,6 @@ def clear_loc_list(img_loc_count_var):
 
 
 def create_new_folder():
-    global image_locations
 
     working_dir = os.path.dirname(image_locations[0])
     new_folder_path = os.path.join(working_dir, 'Converted Images')
