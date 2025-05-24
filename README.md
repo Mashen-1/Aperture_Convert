@@ -1,6 +1,6 @@
 <p align="center">
   
-![Aperture Convert Preview](https://github.com/user-attachments/assets/6c98a325-3333-4551-838f-e115290a6f15)
+![Aperture Convert Preview](https://raw.githubusercontent.com/Mashen-1/Aperture_Convert/refs/heads/main/main/img_assets/Aperture%20Convert%20Preview.PNG)
 
 </p>
 
