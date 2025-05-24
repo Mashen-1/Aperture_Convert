@@ -10,12 +10,12 @@ def get_locations():
     return image_locations
 
 
-def remove_image(index, img_loc_count_var):
+def remove_image(index, img_loc_count_var) -> None:
     image_locations.pop(index)
     img_loc_count_var.set(len(image_locations))
 
 
-def handle_drop(img_loc_count_var, img_convert_count_var, files):
+def handle_drop(img_loc_count_var, img_convert_count_var, files) -> None:
 
     supported_types = [
         '.jpg',
@@ -38,7 +38,7 @@ def handle_drop(img_loc_count_var, img_convert_count_var, files):
     img_convert_count_var.set(0)
 
 
-def find_file(img_loc_count_var, img_convert_count_var):
+def find_file(img_loc_count_var, img_convert_count_var) -> None:
 
     file_paths = askopenfilenames(
         initialdir='/',
@@ -55,7 +55,7 @@ def find_file(img_loc_count_var, img_convert_count_var):
     img_convert_count_var.set(0)
 
 
-def clear_loc_list(img_loc_count_var):
+def clear_loc_list(img_loc_count_var) -> None:
     global image_locations
 
     image_locations = []
@@ -104,7 +104,8 @@ def convert_image(file_type, img_convert_count_var, stop_event, window):
             try:
                 img_loc = image_locations[image_location]
                 image = Img.open(img_loc)
-                image_name = os.path.basename(img_loc).replace(".", "").replace(f"{image.format.lower()}", "")
+                image_basename = os.path.basename(img_loc)
+                image_name, ext = os.path.splitext(image_basename)
 
                 new_name = f"{image_name}.{file_type.lower()}"
                 new_unique = unique_name(new_name)
